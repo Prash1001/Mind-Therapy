@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "968450757105",
+    "project_id": "mind-therapy-e5fd4",
+    "storage_bucket": "mind-therapy-e5fd4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968450757105:android:bfd31665b7305f2e9cb450",
+        "android_client_info": {
+          "package_name": "com.example.ui_13"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "968450757105-pulfsrf8vtahcp9utqpfrv8ke58sspf3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCctOM4kp25hfOjmuSdRsAzBugJyDw80bU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "968450757105-pulfsrf8vtahcp9utqpfrv8ke58sspf3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
