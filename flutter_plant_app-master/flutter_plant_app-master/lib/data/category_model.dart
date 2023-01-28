@@ -7,8 +7,8 @@ class Category {
 
 List<Category> categories = [
   Category(0, 'All'),
-  Category(1, 'Info Box'),
-  Category(2, 'Entertainment'),
-  Category(3, 'Diary House'),
-  Category(4, 'Habit Builder'),
+  Category(1, ' Info Box '),
+  Category(2, ' Fun Time'),
+  Category(3, ' Diary House '),
+  Category(4, ' Test '),
 ];
