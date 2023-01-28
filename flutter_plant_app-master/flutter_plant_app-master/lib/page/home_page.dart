@@ -1,4 +1,5 @@
 import 'dart:ui';
+
 import 'package:flutter/material.dart';
 import 'package:ui_13/core/color.dart';
 import 'package:ui_13/data/category_model.dart';
@@ -238,14 +239,6 @@ class _HomePageState extends State<HomePage> {
                                     fontWeight: FontWeight.w800,
                                   ),
                                 ),
-                                Text(
-                                  '\$${populerPlants[index].price.toStringAsFixed(0)}',
-                                  style: TextStyle(
-                                    color: black.withOpacity(0.4),
-                                    fontWeight: FontWeight.w600,
-                                    fontSize: 12.0,
-                                  ),
-                                ),
                               ],
                             )
                           ],
@@ -341,18 +334,10 @@ class _HomePageState extends State<HomePage> {
                 ),
               ),
             ),
-            Align(
+            const Align(
               alignment: Alignment.bottomCenter,
               child: Padding(
-                padding: const EdgeInsets.only(bottom: 5),
-                child: Text(
-                  '${plants[index].name} - \$${plants[index].price.toStringAsFixed(0)}',
-                  style: TextStyle(
-                    color: black.withOpacity(0.7),
-                    fontWeight: FontWeight.bold,
-                    fontSize: 16.0,
-                  ),
-                ),
+                padding: EdgeInsets.only(bottom: 5),
               ),
             )
           ],

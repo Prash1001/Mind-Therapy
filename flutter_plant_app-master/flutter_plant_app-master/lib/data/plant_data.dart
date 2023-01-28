@@ -54,7 +54,7 @@ List<Plants> populerPlants = [
   ),
   Plants(
     id: 2,
-    name: 'Ficus retusa',
+    name: 'Quote',
     imagePath: 'assets/images/03.png',
     category: 'Info Box',
     description: 'Description',

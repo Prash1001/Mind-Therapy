@@ -162,16 +162,6 @@ class DetailsPage extends StatelessWidget {
                     topLeft: Radius.circular(60),
                   ),
                 ),
-                child: Text(
-                  'Buy \$${plant.price.toStringAsFixed(0)}',
-                  style: TextStyle(
-                    color: white.withOpacity(0.9),
-                    fontSize: 18.0,
-                    height: 1.4,
-                    fontWeight: FontWeight.bold,
-                    letterSpacing: 0.5,
-                  ),
-                ),
               ),
             )
           ],
