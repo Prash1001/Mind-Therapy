@@ -4,7 +4,6 @@ class Plants {
   final String imagePath;
   final String category;
   final String description;
-  final double price;
   final bool isFavorit;
 
   Plants({
@@ -13,7 +12,6 @@ class Plants {
     required this.imagePath,
     required this.category,
     required this.description,
-    required this.price,
     required this.isFavorit,
   });
 }
