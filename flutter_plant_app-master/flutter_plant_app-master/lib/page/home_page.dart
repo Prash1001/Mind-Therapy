@@ -181,7 +181,7 @@ class _HomePageState extends State<HomePage> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(
-                    'Popular',
+                    'Popular Nowadays, ',
                     style: TextStyle(
                       color: black.withOpacity(0.7),
                       fontWeight: FontWeight.bold,
