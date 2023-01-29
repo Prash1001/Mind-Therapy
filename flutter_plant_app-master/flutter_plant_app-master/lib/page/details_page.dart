@@ -94,22 +94,11 @@ class DetailsPage extends StatelessWidget {
                         text: TextSpan(
                           text: plant.description,
                           style: TextStyle(
-                            color: black.withOpacity(0.5),
+                            color: white.withOpacity(0.5),
                             fontSize: 15.0,
                             height: 1.4,
                             letterSpacing: 0.5,
                           ),
-                        ),
-                      ),
-                      const SizedBox(height: 20.0),
-                      Text(
-                        'Treatment',
-                        style: TextStyle(
-                          color: black.withOpacity(0.9),
-                          fontSize: 18.0,
-                          height: 1.4,
-                          fontWeight: FontWeight.bold,
-                          letterSpacing: 0.5,
                         ),
                       ),
                       const SizedBox(height: 20.0),
